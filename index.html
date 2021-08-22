@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="top-bar">
+            <div class="input-section">
+                <input type="text" class="add-list" placeholder="Enter here..." id="workName">
+                <i class="fa fa-plus-square" aria-hidden="true" id="addWork"></i>
+                <small class="hiding-input" id="errorText">Please enter a valid expenditure</small>
+            </div>
+            <div class="status">
+                <select name="" id="statusSelector">
+                    <option value="All">All</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Incomplete">Incomplete</option>
+                </select>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchBar" placeholder="Search Here...">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div class="works">
+
+        </div>
+            
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
